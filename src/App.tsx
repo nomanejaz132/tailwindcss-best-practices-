@@ -1,13 +1,17 @@
-import {
-  ChevronDown,
-  Code,
-} from "lucide-react";
+import { ChevronDown, Code } from "lucide-react";
 import { Button } from "./components/buttoncva";
 
 function App() {
   return (
     <div className="flex items-center justify-center min-h-screen">
-      <Button intent="primary" size="medium">
+      <Button
+        variant="primary"
+        size="medium"
+        onClick={() => {
+          console.log("Button Clicked");
+        }}
+        // disabled
+      >
         <Code className="w-4 h-4" />
         Code
         <ChevronDown className="w-4 h-4 -mr-1" />
