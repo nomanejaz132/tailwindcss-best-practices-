@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <Button
-        variant="primary"
-        size="medium"
+        variant="invisible"
+        size="large"
         onClick={() => {
           console.log("Button Clicked");
         }}

@@ -8,8 +8,7 @@ const button = cva("flex items-center gap-2 rounded-md", {
       primary: [
         "text-white",
         "bg-[#1F883D] hover:bg-[#1C8139] active:bg-[#197935] disabled:bg-[#95D8A6] disabled:cursor-not-allowed",
-        "border border-[#1F232826] focus:border-2 focus:border-[#0969DA] active:border-[#1F232826] disabled:border-[#95D8A6]",
-        "focus:outline-2 focus:outline-[#0969DA] focus:shadow-[0px_0px_0px_3px_rgba(255,255,255,1)inset]",
+        "border border-[#1F232826] active:border-[#1F232826] disabled:border-[#95D8A6]",
         "shadow-[0px_1px_0px_0px_rgba(27,31,35,0.10)] active:shadow-[0px_1px_0px_0px_rgba(20,70,32,0.20)inset] disabled:shadow-none",
       ],
       secondary: [
